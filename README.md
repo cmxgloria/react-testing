@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```
 npm install @testing-library/react react-test-renderer jest-dom --save-dev
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+import Button from "./../button";
+import { render, cleanup } from "@testing-library/react";
+import "jest-dom/extend-expect";
 ```
 
 ## Available Scripts
