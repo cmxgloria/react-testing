@@ -1,4 +1,6 @@
 .button-style {
   border: 1px solid grey;
   padding: 10px;
+  background-color: rgb(150, 212, 233);
+  color: black;
 }
