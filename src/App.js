@@ -5,10 +5,12 @@ import "./App.css";
 function App() {
   return (
     <section>
-      <div className="App">
-        <header className="App-header">
-          <Button label="Click Me Please" />
-        </header>
+      <div>
+        <div className="App">
+          <header className="App-header">
+            <Button label="Click Me Please" />
+          </header>
+        </div>
       </div>
     </section>
   );
